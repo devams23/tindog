@@ -1,0 +1,143 @@
+.gradient-background {
+  background: linear-gradient(300deg, #00bfff, #ff4c68, #ef8172);
+  background-size: 180% 180%;
+  animation: gradient-animation 18s ease infinite;
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.icon-square {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 0.75rem;
+  background-color: #6c757d; /* Adjust background color to match theme */
+  color: #ffffff; /* White icons */
+  border-radius: 0.5rem; /* Rounded corners */
+}
+
+.profile-img {
+  border-radius: 50%;
+  height: 100px;
+}
+/* Custom CSS for TinDog website */
+
+/* Custom CSS for TinDog website */
+
+/* Neon-themed background */
+body {
+  background-color: #0a0a23;
+  color: #fff;
+}
+
+/* Navbar */
+.navbar {
+  background-color: #1f1f3d;
+}
+
+.navbar-nav .nav-link {
+  color: #fff !important;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #ff6c80 !important;
+}
+
+/* Title Section */
+#title {
+  background-color: #0a0a23;
+}
+
+.btn {
+  background-color: #1f1f3d;
+  color: #fff;
+  border: none;
+  transition: background-color 0.3s, box-shadow 0.3s, color 0.3s; /* Smooth transition */
+}
+
+.btn:hover {
+  background-color: #ff6c80;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.3);
+  color: #fff;
+}
+
+
+/* Testimonials Section */
+#testimonials {
+  background-color: #0a0a23;
+}
+
+.card {
+  background-color: #1f1f3d;
+  color: #fff;
+}
+
+/* Pricing Section */
+
+
+.card-title {
+  color: #ff6c80;
+  
+}
+
+.card-body {
+  background-color: #1f1f3d;
+  color: #fff;
+
+}
+.card-body button{
+  background-color: #2c1f66;
+}
+/* Contact Section */
+#contact {
+  background-color: #1f1f3d;
+  color: #fff;
+}
+
+.footer {
+  background-color: #00294a;
+
+}
+
+
+.footer h5 {
+  color: #333;
+}
+
+.footer ul li {
+  margin-bottom: 10px;;
+}
+.footer ul li a{
+  text-decoration: none;
+}
+.social-icons {
+  padding-left: 0;
+  
+  
+}
+
+.social-icons li a {
+  margin-right: 10px;
+  color: black;
+  
+}
+
+.social-icons li:last-child {
+  margin-right: 0;
+}
+
+@media (max-width: 767px) {
+  .footer .col-md-4 {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+}
